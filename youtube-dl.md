@@ -6,6 +6,14 @@ Latest **verified**
 
 - [2022-05-19 **c3deca8**](https://github.com/ytdl-org/youtube-dl/commit/c3deca86aedd2d8ab7cd0c596fd68b7aeb7c042d)
 
+## Init
+
+```
+sudo apt install ffmpeg
+
+sudo apt install python3-venv
+```
+
 ## Installation
 
 ```sh
