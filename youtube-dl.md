@@ -37,4 +37,6 @@ youtube-dl --restrict-filenames -o '%(title)s-%(id)s.f%(format_id)s.%(ext)s' --w
 
 ## Cookies
 
-https://github.com/ytdl-org/youtube-dl#user-content-how-do-i-pass-cookies-to-youtube-dl
+- [x] OKAY: https://github.com/ytdl-org/youtube-dl#user-content-how-do-i-pass-cookies-to-youtube-dl
+
+- [ ] TODO: https://apple.stackexchange.com/questions/349697/how-to-use-youtube-dl-cookies
