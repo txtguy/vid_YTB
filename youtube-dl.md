@@ -2,7 +2,11 @@
 
 https://github.com/ytdl-org/youtube-dl/commits/master
 
-Latest **verified**
+Latest (working):
+
+- [2022-05-24 **187a48a**](https://github.com/ytdl-org/youtube-dl/commit/187a48aee29847664e0c4cd80fe90c32e1fb334b)
+
+Latest **verified**:
 
 - [2022-05-19 **c3deca8**](https://github.com/ytdl-org/youtube-dl/commit/c3deca86aedd2d8ab7cd0c596fd68b7aeb7c042d)
 
@@ -17,6 +21,8 @@ sudo apt install python3-venv
 ## Installation
 
 ```sh
+python3 -m pip install git+https://github.com/ytdl-org/youtube-dl@187a48aee29847664e0c4cd80fe90c32e1fb334b
+
 python3 -m pip install git+https://github.com/ytdl-org/youtube-dl@c3deca86aedd2d8ab7cd0c596fd68b7aeb7c042d
 ```
 
