@@ -3,11 +3,21 @@
 pip install selenium
 ```
 
+Gecko Driver
 https://github.com/mozilla/geckodriver/releases
 - https://github.com/mozilla/geckodriver/releases/download/v0.31.0/geckodriver-v0.31.0-linux64.tar.gz
 
 ```sh
-sudo cp geckodriver /usr/local/bin/
+sudo cp -p geckodriver /usr/local/bin/
+```
+
+ChromeDriver
+https://chromedriver.chromium.org/downloads
+- 101.0.4951.41 https://chromedriver.storage.googleapis.com/index.html?path=101.0.4951.41/
+    - https://chromedriver.storage.googleapis.com/101.0.4951.41/chromedriver_linux64.zip
+
+```sh
+sudo cp -p chromedriver /usr/local/bin
 ```
 '''
 from selenium import webdriver
