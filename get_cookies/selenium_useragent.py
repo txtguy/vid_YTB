@@ -19,6 +19,12 @@ https://chromedriver.chromium.org/downloads
 ```sh
 sudo cp -p chromedriver /usr/local/bin
 ```
+
+```python
+#// https://chromedriver.chromium.org/getting-started
+driver = webdriver.Chrome()
+driver.get("https://www.youtube.com")
+```
 '''
 from selenium import webdriver
 
