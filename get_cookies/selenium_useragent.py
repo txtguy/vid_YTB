@@ -1,4 +1,15 @@
-#$$ pip install selenium
+'''
+```sh
+pip install selenium
+```
+
+https://github.com/mozilla/geckodriver/releases
+- https://github.com/mozilla/geckodriver/releases/download/v0.31.0/geckodriver-v0.31.0-linux64.tar.gz
+
+```sh
+sudo cp geckodriver /usr/local/bin/
+```
+'''
 from selenium import webdriver
 
 
