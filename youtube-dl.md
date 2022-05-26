@@ -43,7 +43,7 @@ youtube-dl --restrict-filenames -o '%(title)s-%(id)s.f%(format_id)s.%(ext)s' --w
 - Filter: **`--match-filter "..."`**
 
 ```sh
-youtube-dl ... --match-filter "like_count >= 3000" -i -g > out.txt
+youtube-dl ... --match-filter "like_count >= 3000" -i -s > out.txt
 ```
 
 ## Cookies
