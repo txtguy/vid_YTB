@@ -34,11 +34,16 @@ python3 -m pip install git+https://github.com/ytdl-org/youtube-dl@c3deca86aedd2d
 youtube-dl --restrict-filenames -o '%(title)s-%(id)s.f%(format_id)s.%(ext)s' --write-info-json -F URL
 ```
 
-
-- BEST video (mp4) & audio (m4a): `-f bestvideo[ext=mp4]+bestaudio[ext=m4a]`
+- **BEST video & audio** (mp4 & m4a): **`-f bestvideo[ext=mp4]+bestaudio[ext=m4a]`**
 
 ```sh
 youtube-dl --restrict-filenames -o '%(title)s-%(id)s.f%(format_id)s.%(ext)s' --write-info-json -f bestvideo[ext=mp4]+bestaudio[ext=m4a] URL
+```
+
+- Filter: **`--match-filter "..."`**
+
+```sh
+youtube-dl ... --match-filter "like_count >= 3000" -i -g > out.txt
 ```
 
 ## Cookies
