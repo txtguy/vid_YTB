@@ -40,6 +40,8 @@ youtube-dl --restrict-filenames -o '%(title)s-%(id)s.f%(format_id)s.%(ext)s' --w
 youtube-dl --restrict-filenames -o '%(title)s-%(id)s.f%(format_id)s.%(ext)s' --write-info-json -f bestvideo[ext=mp4]+bestaudio[ext=m4a] URL
 ```
 
+- Specify **CODEC** "avc1...": **`-f bestvideo[ext=mp4,vcodec^=avc]+bestaudio[ext=m4a]`** // `vcodec^=...`: https://github.com/ytdl-org/youtube-dl/issues/4886#issuecomment-605710867
+
 - Filter: **`--match-filter "..."`**
 
 ```sh
