@@ -45,10 +45,10 @@ youtube-dl --restrict-filenames -o '%(title)s-%(id)s.f%(format_id)s.%(ext)s' --w
 - Filter: **`--match-filter "..."`**
 
 ```sh
-youtube-dl ... --cookies ... --match-filter "7000 <= view_count" --get-filename > out.txt
+youtube-dl ... --cookies ... --match-filter "view_count > 7000" --get-filename > out.txt
 
-youtube-dl ... --cookies ... --match-filter "7000 <= view_count" -i
-youtube-dl ... --cookies ... --match-filter "3000 <= view_count < 7000" -i
+youtube-dl ... --cookies ... --match-filter "view_count > 7000" -i
+youtube-dl ... --cookies ... --match-filter "view_count >= 3000 & view_count < 7000" -i
 ```
 
 ## Cookies
